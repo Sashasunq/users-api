@@ -1,0 +1,16 @@
+{
+  "composite": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react", // Add this line to enable JSX support
+    "strict": true,
+    "esModuleInterop": true
+  },
+  // "files": ["src/main.tsx"],
+  "include": [
+    "src"
+    // "__tests__/**/*.test.*"
+  ]
+}
